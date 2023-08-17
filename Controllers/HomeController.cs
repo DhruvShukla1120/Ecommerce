@@ -1,8 +1,8 @@
-﻿using ECommerceApp.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Product_Details_Devops.Models;
 using System.Diagnostics;
 
-namespace ECommerceApp.Controllers
+namespace Product_Details_Devops.Controllers
 {
     public class HomeController : Controller
     {
@@ -18,7 +18,7 @@ namespace ECommerceApp.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult PurchaseDetails()
         {
             return View();
         }
