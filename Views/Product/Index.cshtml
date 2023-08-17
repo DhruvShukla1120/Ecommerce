@@ -1,0 +1,116 @@
+﻿@model List<Product>
+
+<h2>Products</h2>
+<p>
+    <a class="btn btn-info" asp-action="Create">Create New</a>
+
+</p>
+
+<div style="margin-top: 150px;" class="w-100 mt-4 d-flex flex-wrap">
+    @foreach (var item in Model)
+    {
+        <div class="card mx-3 mb-4" style="width: 21rem; height: 33rem;">
+
+
+            <img style="width:100%; height:310px" src="https://images.pexels.com/photos/1031955/pexels-photo-1031955.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+            
+
+            <div class="card-body">
+                <h5 class="card-title">@item.ProductName</h5>
+                <p class="card-text">
+                    <b>Price: </b>@item.Price
+                </p> <br>
+                <p>@item.ProductDescription</p>
+                <button type="button" onclick="add(@item.ProductId)" class="btnn">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front text">
+                        Add to Cart
+                    </span>
+                </button>
+
+            </div>
+
+
+        </div>
+    }
+</div>
+
+<style>
+    .btnn {
+        position: relative;
+        border: none;
+        background: transparent;
+        padding: 0;
+        cursor: pointer;
+        outline-offset: 4px;
+        transition: filter 250ms;
+        user-select: none;
+        touch-action: manipulation;
+        height: 10px;
+    }
+
+    .shadow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        background: hsl(0deg 0% 0% / 0.25);
+        will-change: transform;
+        transform: translateY(2px);
+        transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+    }
+
+    .edge {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+        background: linear-gradient( to left, hsl(340deg 100% 16%) 0%, hsl(340deg 100% 32%) 8%, hsl(340deg 100% 32%) 92%, hsl(340deg 100% 16%) 100% );
+    }
+
+    .front {
+        display: block;
+        position: relative;
+        padding: 8px 13px;
+        border-radius: 12px;
+        font-size: 1.1rem;
+        color: white;
+        background: hsl(345deg 100% 47%);
+        will-change: transform;
+        transform: translateY(-4px);
+        transition: transform 600ms cubic-bezier(.3, .7, .4, 1);
+    }
+
+    .btnn:hover {
+        filter: brightness(110%);
+    }
+
+        .btnn:hover .front {
+            transform: translateY(-6px);
+            transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+        }
+
+    .btnn:active .front {
+        transform: translateY(-2px);
+        transition: transform 34ms;
+    }
+
+    .btnn:hover .shadow {
+        transform: translateY(4px);
+        transition: transform 250ms cubic-bezier(.3, .7, .4, 1.5);
+    }
+
+    .btnn:active .shadow {
+        transform: translateY(1px);
+        transition: transform 34ms;
+    }
+
+    .btnn:focus:not(:focus-visible) {
+        outline: none;
+    }
+</style>
