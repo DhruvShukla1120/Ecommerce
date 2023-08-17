@@ -1,0 +1,56 @@
+﻿@model IEnumerable<ShoppingCart.Models.Cart>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Cart</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Sr.no
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Rate
+            </th>
+            <th>
+               Qty
+            </th>
+            <th>
+                Total
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CartId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.productName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.rate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.totalprice)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.CartId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.CartId  })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
