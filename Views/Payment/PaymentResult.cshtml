@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Payment Result";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        .payment-result {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+            .payment-result p {
+                font-size: 18px;
+                text-align: center;
+                margin-top: 20px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="payment-result">
+            <h2>Payment Result</h2>
+            <p>@ViewBag.Message</p>
+        </div>
+    </div>
+</body>
+</html>
