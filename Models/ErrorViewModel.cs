@@ -1,4 +1,4 @@
-namespace DevOpsGroupProjects.Models
+namespace ECommerceApp.Models
 {
     public class ErrorViewModel
     {
