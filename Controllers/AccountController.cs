@@ -1,6 +1,5 @@
 ﻿using ECommerceApp.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 
 namespace ECommerceApp.Controllers
 {
@@ -34,7 +33,7 @@ namespace ECommerceApp.Controllers
         [HttpPost]
         public ActionResult Login(string username, string password)
         {
-            if (username == "admin" && password == "Fgi123")
+            if (username == "manoj" && password == "manoj123")
             {
                 // Admin login logic
                 return RedirectToAction("AdminDashboard");
@@ -44,7 +43,7 @@ namespace ECommerceApp.Controllers
             if (user != null)
             {
                 // Regular user login logic
-                return RedirectToAction("Index", "Payment"); // Redirect to PaymentController's Index action
+                return RedirectToAction("Index", "Home"); // Redirect to PaymentController's Index action
             }
 
             return RedirectToAction("Login", new { loginFailed = true });

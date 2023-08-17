@@ -1,0 +1,62 @@
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\bin\Debug\net6.0\appsettings.Development.json
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\bin\Debug\net6.0\appsettings.json
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\bin\Debug\net6.0\ECommerceApp.staticwebassets.runtime.json
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\bin\Debug\net6.0\ECommerceApp.exe
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\bin\Debug\net6.0\ECommerceApp.deps.json
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\bin\Debug\net6.0\ECommerceApp.runtimeconfig.json
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\bin\Debug\net6.0\ECommerceApp.dll
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\bin\Debug\net6.0\ECommerceApp.pdb
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\ECommerceApp.csproj.AssemblyReference.cache
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\ECommerceApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\ECommerceApp.AssemblyInfoInputs.cache
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\ECommerceApp.AssemblyInfo.cs
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\ECommerceApp.csproj.CoreCompileInputs.cache
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\ECommerceApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\ECommerceApp.RazorAssemblyInfo.cache
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\ECommerceApp.RazorAssemblyInfo.cs
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\staticwebassets\msbuild.ECommerceApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\staticwebassets\msbuild.build.ECommerceApp.props
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ECommerceApp.props
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ECommerceApp.props
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\staticwebassets.build.json
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\staticwebassets.development.json
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\scopedcss\bundle\ECommerceApp.styles.css
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\scopedcss\projectbundle\ECommerceApp.bundle.scp.css
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\ECommerceApp.dll
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\refint\ECommerceApp.dll
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\ECommerceApp.pdb
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\ECommerceApp.genruntimeconfig.cache
+D:\Snehal Gurav\.net framework\microservuces\ECommerceApp\ECommerceApp\obj\Debug\net6.0\ref\ECommerceApp.dll
+D:\tp\tp2\Ecommerce\ECommerceApp\bin\Debug\net6.0\appsettings.Development.json
+D:\tp\tp2\Ecommerce\ECommerceApp\bin\Debug\net6.0\appsettings.json
+D:\tp\tp2\Ecommerce\ECommerceApp\bin\Debug\net6.0\ECommerceApp.staticwebassets.runtime.json
+D:\tp\tp2\Ecommerce\ECommerceApp\bin\Debug\net6.0\ECommerceApp.exe
+D:\tp\tp2\Ecommerce\ECommerceApp\bin\Debug\net6.0\ECommerceApp.deps.json
+D:\tp\tp2\Ecommerce\ECommerceApp\bin\Debug\net6.0\ECommerceApp.runtimeconfig.json
+D:\tp\tp2\Ecommerce\ECommerceApp\bin\Debug\net6.0\ECommerceApp.dll
+D:\tp\tp2\Ecommerce\ECommerceApp\bin\Debug\net6.0\ECommerceApp.pdb
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\ECommerceApp.csproj.AssemblyReference.cache
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\ECommerceApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\ECommerceApp.AssemblyInfoInputs.cache
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\ECommerceApp.AssemblyInfo.cs
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\ECommerceApp.csproj.CoreCompileInputs.cache
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\ECommerceApp.MvcApplicationPartsAssemblyInfo.cache
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\ECommerceApp.RazorAssemblyInfo.cache
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\ECommerceApp.RazorAssemblyInfo.cs
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\staticwebassets\msbuild.ECommerceApp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\staticwebassets\msbuild.build.ECommerceApp.props
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ECommerceApp.props
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ECommerceApp.props
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\staticwebassets.pack.json
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\staticwebassets.build.json
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\staticwebassets.development.json
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\scopedcss\bundle\ECommerceApp.styles.css
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\scopedcss\projectbundle\ECommerceApp.bundle.scp.css
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\ECommerceApp.dll
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\refint\ECommerceApp.dll
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\ECommerceApp.pdb
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\ECommerceApp.genruntimeconfig.cache
+D:\tp\tp2\Ecommerce\ECommerceApp\obj\Debug\net6.0\ref\ECommerceApp.dll
