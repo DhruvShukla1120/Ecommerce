@@ -1,8 +1,8 @@
-﻿using ECommerceApp.Models;
+﻿using E_commerce_Website01.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace ECommerceApp.Controllers
+namespace E_commerce_Website01.Controllers
 {
     public class HomeController : Controller
     {
@@ -27,6 +27,11 @@ namespace ECommerceApp.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public IActionResult Chat()
+        {
+            return View();
         }
     }
 }
