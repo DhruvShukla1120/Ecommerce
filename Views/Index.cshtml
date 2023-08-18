@@ -1,0 +1,51 @@
+﻿@model List<E_commerce_websites.Models.Delivery>
+
+<h2>Delivery Index</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Address
+            </th>
+            <th>
+                Delivery Date
+            </th>
+            <th>
+                Is Delivered
+            </th>
+            <th>
+                Delivery Agent
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DeliveryDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsDelivered)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DeliveryAgent.Name) <!-- Assuming there's a 'Name' property in DeliveryAgent -->
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
